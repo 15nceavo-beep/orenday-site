@@ -1,0 +1,468 @@
+export type Lang = 'es' | 'en';
+
+export const content = {
+  nav: {
+    es: {
+      firma: 'La Firma',
+      areas: 'Áreas de Práctica',
+      equipo: 'Equipo',
+      insights: 'Insights',
+      contacto: 'Contacto',
+      portal: 'Portal Cliente',
+    },
+    en: {
+      firma: 'The Firm',
+      areas: 'Practice Areas',
+      equipo: 'Team',
+      insights: 'Insights',
+      contacto: 'Contact',
+      portal: 'Client Portal',
+    },
+  },
+  hero: {
+    es: {
+      eyebrow: 'Firma · Mexicali, B.C.',
+      title: 'Estrategia jurídica para empresas que no toleran improvisaciones.',
+      lede: 'Litigamos, asesoramos y estructuramos. Hacemos derecho fiscal y corporativo con el cuidado de un sastre y la precisión de un cirujano.',
+      cta1: 'Conoce la firma',
+      cta2: 'Agendar consulta',
+      meta1: 'Establecido',
+      meta1Value: '2018',
+      meta2: 'Áreas de práctica',
+      meta2Value: '08',
+      meta3: 'Cobertura',
+      meta3Value: 'Nacional',
+    },
+    en: {
+      eyebrow: 'Firm · Mexicali, B.C.',
+      title: 'Legal strategy for companies that do not tolerate improvisation.',
+      lede: 'We litigate, advise and structure. We practice tax and corporate law with the care of a tailor and the precision of a surgeon.',
+      cta1: 'About the firm',
+      cta2: 'Book a consultation',
+      meta1: 'Established',
+      meta1Value: '2018',
+      meta2: 'Practice areas',
+      meta2Value: '08',
+      meta3: 'Coverage',
+      meta3Value: 'Nationwide',
+    },
+  },
+  firma: {
+    es: {
+      eyebrow: '— La Firma',
+      title: 'Trabajamos para un círculo reducido de empresas y patrimonios.',
+      p1: 'Orenday Asesores Corporativos es una firma fundada bajo una premisa simple: las decisiones jurídicas más importantes de una empresa no se delegan a un volumen, sino a un equipo. Cada expediente lleva el nombre de quien lo trabaja, cada cliente conoce a su abogado y cada estrategia se construye con el mismo cuidado con que se firma.',
+      p2: 'Litigamos ante autoridades fiscales, estructuramos operaciones corporativas y diseñamos planeaciones patrimoniales que resisten el escrutinio del tiempo. No vendemos volumen. Vendemos juicio.',
+      pillarsTitle: 'Cómo trabajamos',
+      pillars: [
+        {
+          n: '01',
+          t: 'Estrategia antes que procedimiento',
+          d: 'Antes de redactar un solo escrito, definimos qué pretendemos lograr y por qué camino. El procedimiento sigue al diagnóstico, no al revés.',
+        },
+        {
+          n: '02',
+          t: 'Acompañamiento directo',
+          d: 'El socio que firma es el socio que atiende. Sin intermediarios, sin pasantes anónimos, sin canales saturados.',
+        },
+        {
+          n: '03',
+          t: 'Confidencialidad operativa',
+          d: 'Información, documentos y comunicaciones se manejan bajo protocolos diseñados para la sensibilidad propia de la materia fiscal y corporativa.',
+        },
+      ],
+    },
+    en: {
+      eyebrow: '— The Firm',
+      title: 'We work with a closed circle of companies and high-net-worth clients.',
+      p1: 'Orenday Asesores Corporativos is a firm built on a simple premise: a company\u2019s most important legal decisions are not delegated by volume but by a team. Every file carries the name of whoever drafts it, every client knows their lawyer, and every strategy is built with the same care it is signed with.',
+      p2: 'We litigate before tax authorities, structure corporate transactions and design estate plans that withstand the test of time. We do not sell volume. We sell judgment.',
+      pillarsTitle: 'How we work',
+      pillars: [
+        {
+          n: '01',
+          t: 'Strategy before procedure',
+          d: 'Before drafting a single brief we decide what we want to accomplish and through which route. Procedure follows diagnosis, not the other way around.',
+        },
+        {
+          n: '02',
+          t: 'Direct partner attention',
+          d: 'The partner who signs is the partner who handles the matter. No intermediaries, no anonymous associates, no clogged channels.',
+        },
+        {
+          n: '03',
+          t: 'Operational confidentiality',
+          d: 'Information, documents and communications are handled under protocols designed for the sensitivity of tax and corporate matters.',
+        },
+      ],
+    },
+  },
+  areas: {
+    es: {
+      eyebrow: '— Áreas de Práctica',
+      title: 'Ocho áreas, un solo estándar.',
+      lede: 'Nuestro trabajo se concentra deliberadamente. Cubrimos lo que hacemos mejor que nadie y declinamos lo demás.',
+      items: [
+        {
+          n: '01',
+          t: 'Litigio Fiscal',
+          d: 'Defensa contra créditos fiscales, multas, embargos y resoluciones de la autoridad. Demandas de nulidad, juicios de amparo y recursos administrativos ante el SAT, IMSS, INFONAVIT y autoridades estatales.',
+          img: 'https://d8j0ntlcm91z4.cloudfront.net/user_3FmeicpEOywjab1mhomZiFuQzoR/hf_20260629_214520_d0f2e336-5399-416f-9971-adc50b88fc6b.png',
+        },
+        {
+          n: '02',
+          t: 'Asesoría y Consultoría Fiscal',
+          d: 'Diagnósticos, segundas opiniones y acompañamiento estratégico en operaciones con impacto tributario. Trabajamos con dirección, área fiscal interna y contadores para anticipar contingencias antes de que ocurran.',
+          img: 'https://d8j0ntlcm91z4.cloudfront.net/user_3FmeicpEOywjab1mhomZiFuQzoR/hf_20260629_214526_057d7482-f14d-49e7-ba21-da9dd6034839.png',
+        },
+        {
+          n: '03',
+          t: 'Derecho Corporativo',
+          d: 'Constitución y reorganización de sociedades, fusiones, escisiones, gobierno corporativo y secretaría legal. Estructuras societarias que resisten auditorías, due diligence y operaciones de capital.',
+          img: 'https://d8j0ntlcm91z4.cloudfront.net/user_3FmeicpEOywjab1mhomZiFuQzoR/hf_20260629_214531_fe3b0b2d-2de4-4c66-94b7-3f86edd9d517.png',
+        },
+        {
+          n: '04',
+          t: 'Planeación Patrimonial',
+          d: 'Protección y transmisión de patrimonios familiares y empresariales. Fideicomisos, sociedades patrimoniales, sucesiones y blindaje frente a riesgos personales, fiscales y de mercado.',
+          img: 'https://d8j0ntlcm91z4.cloudfront.net/user_3FmeicpEOywjab1mhomZiFuQzoR/hf_20260629_214540_40b53b1e-1ab2-44d0-b469-e90dabe7e3db.png',
+        },
+        {
+          n: '05',
+          t: 'Protección de Datos Personales',
+          d: 'Cumplimiento de la Ley Federal de Protección de Datos Personales en Posesión de los Particulares. Avisos de privacidad, políticas internas, atención a derechos ARCO y acompañamiento ante el INAI.',
+          img: 'https://d8j0ntlcm91z4.cloudfront.net/user_3FmeicpEOywjab1mhomZiFuQzoR/hf_20260629_214545_b40ce068-81e7-4336-8e4e-7d61a0b26c08.png',
+        },
+        {
+          n: '06',
+          t: 'Prevención de Lavado de Dinero',
+          d: 'Diseño e implementación de programas de cumplimiento antilavado conforme a la Ley Federal para la Prevención e Identificación de Operaciones con Recursos de Procedencia Ilícita. Capacitación, controles internos y reporte de operaciones vulnerables.',
+          img: 'https://d8j0ntlcm91z4.cloudfront.net/user_3FmeicpEOywjab1mhomZiFuQzoR/hf_20260629_214551_50abc6a0-05a6-450d-9e06-99f17949d8dd.png',
+        },
+        {
+          n: '07',
+          t: 'Legislación Tributaria',
+          d: 'Interpretación, aplicación y aprovechamiento del marco fiscal vigente. Análisis de reformas, criterios de la SCJN, jurisprudencia del TFJA y resoluciones administrativas relevantes.',
+          img: 'https://d8j0ntlcm91z4.cloudfront.net/user_3FmeicpEOywjab1mhomZiFuQzoR/hf_20260629_214551_50abc6a0-05a6-450d-9e06-99f17949d8dd.png',
+        },
+        {
+          n: '08',
+          t: 'Normativa de PyMEs',
+          d: 'Acompañamiento jurídico integral para pequeñas y medianas empresas. Régimen Simplificado de Confianza, contratos básicos, cumplimiento laboral y estrategia fiscal proporcional al tamaño del negocio.',
+          img: 'https://d8j0ntlcm91z4.cloudfront.net/user_3FmeicpEOywjab1mhomZiFuQzoR/hf_20260629_214556_52b0b87f-6668-466e-99fc-3844ebe40369.png',
+        },
+      ],
+    },
+    en: {
+      eyebrow: '— Practice Areas',
+      title: 'Eight areas, one standard.',
+      lede: 'Our work is deliberately concentrated. We cover what we do better than anyone else and decline the rest.',
+      items: [
+        {
+          n: '01',
+          t: 'Tax Litigation',
+          d: 'Defense against tax assessments, fines, seizures and authority rulings. Nullity proceedings, constitutional amparo and administrative appeals before SAT, IMSS, INFONAVIT and state authorities.',
+          img: 'https://d8j0ntlcm91z4.cloudfront.net/user_3FmeicpEOywjab1mhomZiFuQzoR/hf_20260629_214520_d0f2e336-5399-416f-9971-adc50b88fc6b.png',
+        },
+        {
+          n: '02',
+          t: 'Tax Advisory & Consulting',
+          d: 'Diagnostics, second opinions and strategic counsel on operations with tax impact. We work alongside management, in-house tax teams and accountants to anticipate contingencies before they occur.',
+          img: 'https://d8j0ntlcm91z4.cloudfront.net/user_3FmeicpEOywjab1mhomZiFuQzoR/hf_20260629_214526_057d7482-f14d-49e7-ba21-da9dd6034839.png',
+        },
+        {
+          n: '03',
+          t: 'Corporate Law',
+          d: 'Incorporation and reorganization of companies, mergers, spin-offs, corporate governance and legal secretariat. Corporate structures built to withstand audits, due diligence and capital transactions.',
+          img: 'https://d8j0ntlcm91z4.cloudfront.net/user_3FmeicpEOywjab1mhomZiFuQzoR/hf_20260629_214531_fe3b0b2d-2de4-4c66-94b7-3f86edd9d517.png',
+        },
+        {
+          n: '04',
+          t: 'Estate & Wealth Planning',
+          d: 'Protection and transfer of family and business wealth. Trusts, holding companies, succession planning and shielding against personal, tax and market risk.',
+          img: 'https://d8j0ntlcm91z4.cloudfront.net/user_3FmeicpEOywjab1mhomZiFuQzoR/hf_20260629_214540_40b53b1e-1ab2-44d0-b469-e90dabe7e3db.png',
+        },
+        {
+          n: '05',
+          t: 'Personal Data Protection',
+          d: 'Compliance with the Federal Law on Protection of Personal Data Held by Private Parties. Privacy notices, internal policies, ARCO rights procedures and representation before INAI.',
+          img: 'https://d8j0ntlcm91z4.cloudfront.net/user_3FmeicpEOywjab1mhomZiFuQzoR/hf_20260629_214545_b40ce068-81e7-4336-8e4e-7d61a0b26c08.png',
+        },
+        {
+          n: '06',
+          t: 'Anti-Money Laundering',
+          d: 'Design and implementation of AML compliance programs under the Federal Law for the Prevention and Identification of Transactions with Illicit Funds. Training, internal controls and reporting of vulnerable transactions.',
+          img: 'https://d8j0ntlcm91z4.cloudfront.net/user_3FmeicpEOywjab1mhomZiFuQzoR/hf_20260629_214551_50abc6a0-05a6-450d-9e06-99f17949d8dd.png',
+        },
+        {
+          n: '07',
+          t: 'Tax Legislation',
+          d: 'Interpretation, application and strategic use of the current tax framework. Analysis of reforms, Supreme Court criteria, TFJA case law and relevant administrative rulings.',
+          img: 'https://d8j0ntlcm91z4.cloudfront.net/user_3FmeicpEOywjab1mhomZiFuQzoR/hf_20260629_214551_50abc6a0-05a6-450d-9e06-99f17949d8dd.png',
+        },
+        {
+          n: '08',
+          t: 'SME Regulation',
+          d: 'Comprehensive legal support for small and medium-sized enterprises. RESICO regime, basic contracts, labor compliance and tax strategy proportional to the size of the business.',
+          img: 'https://d8j0ntlcm91z4.cloudfront.net/user_3FmeicpEOywjab1mhomZiFuQzoR/hf_20260629_214556_52b0b87f-6668-466e-99fc-3844ebe40369.png',
+        },
+      ],
+    },
+  },
+  clientes: {
+    es: {
+      eyebrow: '— Confían en Nosotros',
+      title: 'Empresas que han confiado su defensa fiscal y corporativa al despacho.',
+    },
+    en: {
+      eyebrow: '— Trusted by',
+      title: 'Companies that have trusted their tax and corporate defense to the firm.',
+    },
+    items: ['QUATTRO', 'CERVECERÍA ÍCONO', 'XECL', 'XED', 'JK', 'TENTACIONES'],
+  },
+  testimonios: {
+    es: {
+      eyebrow: '— Testimonios',
+      title: 'No vendemos resultados. Construimos relaciones.',
+    },
+    en: {
+      eyebrow: '— Testimonials',
+      title: 'We do not sell results. We build relationships.',
+    },
+    items: {
+      es: [
+        {
+          q: 'Llegamos al despacho con una resolución de la autoridad que nos parecía imposible de revertir. José Antonio leyó el expediente y en tres semanas teníamos una estrategia que nadie había visto. Hoy seguimos siendo clientes.',
+          n: '[NOMBRE CLIENTE]',
+          c: 'Director General · Industria Manufacturera',
+        },
+        {
+          q: 'Su valor no está en ganarlo todo. Está en decirte con claridad qué se puede y qué no. Ese tipo de honestidad cuesta encontrarlo en un despacho legal.',
+          n: '[NOMBRE CLIENTE]',
+          c: 'CFO · Grupo Empresarial Regional',
+        },
+        {
+          q: 'Cambiamos de despacho dos veces antes de llegar aquí. La diferencia se notó en la primera reunión: nos hablaron de estrategia, no de honorarios.',
+          n: '[NOMBRE CLIENTE]',
+          c: 'Socio Fundador · Empresa Familiar',
+        },
+      ],
+      en: [
+        {
+          q: 'We came to the firm with an authority ruling we thought impossible to reverse. José Antonio read the file and within three weeks we had a strategy no one else had seen. We are still clients today.',
+          n: '[CLIENT NAME]',
+          c: 'CEO · Manufacturing Industry',
+        },
+        {
+          q: 'Their value is not in winning everything. It is in telling you clearly what can and cannot be done. That kind of honesty is hard to find in a law firm.',
+          n: '[CLIENT NAME]',
+          c: 'CFO · Regional Business Group',
+        },
+        {
+          q: 'We changed firms twice before coming here. The difference showed in the first meeting: they spoke to us about strategy, not fees.',
+          n: '[CLIENT NAME]',
+          c: 'Founding Partner · Family Business',
+        },
+      ],
+    },
+  },
+  equipo: {
+    es: {
+      eyebrow: '— Equipo',
+      title: 'La firma se mide por las personas que la firman.',
+      lede: 'No somos un equipo grande. Somos un equipo concentrado. Cada matter tiene asignado un socio responsable y un asociado de soporte directo.',
+    },
+    en: {
+      eyebrow: '— Team',
+      title: 'A firm is measured by the people who sign on its behalf.',
+      lede: 'We are not a large team. We are a concentrated one. Every matter has an assigned responsible partner and a direct support associate.',
+    },
+    members: {
+      es: [
+        {
+          name: 'José Antonio Orenday Barraza',
+          role: 'Socio Director',
+          img: '/images/jose-antonio-orenday.jpg',
+          bio: 'Socio Director de Orenday Asesores Corporativos. Más de 13 años de experiencia en asesoría fiscal y corporativa, con trayectoria en KPMG y Deloitte. Se especializa en litigio ante el SAT, estructuración corporativa y estrategia fiscal para empresas.',
+          areas: ['Litigio Fiscal', 'Asesoría Fiscal y Corporativa', 'Planeación Patrimonial'],
+        },
+        {
+          name: 'Ángel Mendoza Aramburo',
+          role: 'Abogado Asociado',
+          img: '/images/angel-mendoza.png',
+          bio: 'Abogado del despacho con práctica activa en litigio fiscal y administrativo ante el TFJA y el TEJA. Cursa la Licenciatura en Derecho en CETYS Universidad (7.° semestre). Complementa su formación jurídica con conocimientos en análisis financiero y desarrollo tecnológico.',
+          areas: ['Litigio Fiscal y Administrativo', 'Derecho Corporativo', 'Derecho Laboral'],
+        },
+      ],
+      en: [
+        {
+          name: 'José Antonio Orenday Barraza',
+          role: 'Managing Partner',
+          img: '/images/jose-antonio-orenday.jpg',
+          bio: 'Managing Partner of Orenday Asesores Corporativos. Over 13 years of experience in tax and corporate advisory, with background at KPMG and Deloitte. He specializes in SAT litigation, corporate structuring and tax strategy for businesses.',
+          areas: ['Tax Litigation', 'Tax & Corporate Advisory', 'Estate & Wealth Planning'],
+        },
+        {
+          name: 'Ángel Mendoza Aramburo',
+          role: 'Associate',
+          img: '/images/angel-mendoza.png',
+          bio: 'Associate at the firm with active practice in tax and administrative litigation before the TFJA and TEJA. Currently studying Law at CETYS Universidad (7th semester). He complements his legal training with knowledge in financial analysis and technology.',
+          areas: ['Tax & Administrative Litigation', 'Corporate Law', 'Labor Law'],
+        },
+      ],
+    },
+  },
+  insights: {
+    es: {
+      eyebrow: '— Insights',
+      title: 'Notas y análisis del despacho.',
+      lede: 'Lecturas breves sobre lo que está cambiando en materia fiscal y corporativa en México.',
+      cta: 'Leer nota',
+      items: [
+        {
+          tag: 'Litigio Fiscal',
+          date: '2026',
+          t: 'Qué cambió en los criterios del TFJA sobre devoluciones de saldo a favor.',
+          d: 'Análisis de los precedentes recientes que están modificando la carga probatoria en juicios de nulidad por desistimiento presunto de devoluciones.',
+        },
+        {
+          tag: 'Planeación Patrimonial',
+          date: '2026',
+          t: 'Fideicomisos de administración familiar: cuándo dejan de tener sentido.',
+          d: 'No todo patrimonio necesita un fideicomiso. Cuatro casos donde una sociedad patrimonial cumple mejor el objetivo y a menor costo.',
+        },
+        {
+          tag: 'PyMEs',
+          date: '2026',
+          t: 'RESICO para personas morales: tres años después, qué aprendimos.',
+          d: 'Lo que el despacho ha visto funcionar y fallar en el Régimen Simplificado de Confianza desde su entrada en vigor.',
+        },
+      ],
+    },
+    en: {
+      eyebrow: '— Insights',
+      title: 'Notes and analysis from the firm.',
+      lede: 'Brief reads on what is changing in Mexican tax and corporate law.',
+      cta: 'Read note',
+      items: [
+        {
+          tag: 'Tax Litigation',
+          date: '2026',
+          t: 'What changed in TFJA criteria on tax refund requests.',
+          d: 'Analysis of recent precedents shifting the burden of proof in nullity proceedings over presumed withdrawal of refund requests.',
+        },
+        {
+          tag: 'Estate Planning',
+          date: '2026',
+          t: 'Family administration trusts: when they stop making sense.',
+          d: 'Not every estate needs a trust. Four cases where a holding company achieves the goal better and at a lower cost.',
+        },
+        {
+          tag: 'SMEs',
+          date: '2026',
+          t: 'RESICO for companies: three years in, what we have learned.',
+          d: 'What the firm has seen work and fail in the Simplified Trust Regime since it took effect.',
+        },
+      ],
+    },
+  },
+  portal: {
+    es: {
+      eyebrow: '— Portal Cliente',
+      title: 'Su expediente, cuando lo necesite.',
+      lede: 'Acceso confidencial a sus matters activos, documentos, calendarios procesales y comunicaciones con el equipo asignado.',
+      features: [
+        'Estado de cada matter en tiempo real',
+        'Repositorio cifrado de documentos',
+        'Calendario procesal personalizado',
+        'Comunicación directa con su abogado',
+      ],
+      cta: 'Acceder al portal',
+      modalTitle: 'Acceso de Cliente',
+      modalEmail: 'Correo registrado',
+      modalPassword: 'Contraseña',
+      modalForgot: '¿Olvidó su contraseña?',
+      modalSubmit: 'Iniciar sesión',
+      modalNote: 'Si aún no tiene acceso, escriba a su abogado asignado o a contacto@orenday.com.mx.',
+    },
+    en: {
+      eyebrow: '— Client Portal',
+      title: 'Your matter, when you need it.',
+      lede: 'Confidential access to your active matters, documents, procedural calendars and communications with your assigned team.',
+      features: [
+        'Real-time status of every matter',
+        'Encrypted document repository',
+        'Personalized procedural calendar',
+        'Direct communication with your lawyer',
+      ],
+      cta: 'Enter the portal',
+      modalTitle: 'Client Access',
+      modalEmail: 'Registered email',
+      modalPassword: 'Password',
+      modalForgot: 'Forgot your password?',
+      modalSubmit: 'Sign in',
+      modalNote: 'If you do not yet have access, contact your assigned lawyer or write to contacto@orenday.com.mx.',
+    },
+  },
+  contacto: {
+    es: {
+      eyebrow: '— Contacto',
+      title: 'Conversemos.',
+      lede: 'Cada consulta inicial es una reunión sin compromiso. Si después de esa reunión decide trabajar con el despacho, recibirá una propuesta puntual con alcances, tiempos y honorarios.',
+      addressLabel: 'Oficina',
+      address: 'Av. Venustiano Carranza 109,\nCol. Vallarta, C.P. 21270,\nMexicali, Baja California.',
+      emailLabel: 'Correo',
+      email: 'contacto@orenday.com.mx',
+      socialLabel: 'Instagram',
+      social: '@orendaylegal',
+      formName: 'Nombre completo',
+      formEmail: 'Correo electrónico',
+      formCompany: 'Empresa (opcional)',
+      formMessage: '¿Cómo podemos ayudarle?',
+      formSubmit: 'Enviar mensaje',
+      formNote: 'Al enviar este formulario acepta que un miembro del despacho se ponga en contacto para coordinar una reunión inicial.',
+    },
+    en: {
+      eyebrow: '— Contact',
+      title: 'Let us talk.',
+      lede: 'Every initial consultation is a no-obligation meeting. If after that meeting you decide to work with the firm, you will receive a specific proposal with scope, timing and fees.',
+      addressLabel: 'Office',
+      address: 'Av. Venustiano Carranza 109,\nCol. Vallarta, C.P. 21270,\nMexicali, Baja California.',
+      emailLabel: 'Email',
+      email: 'contacto@orenday.com.mx',
+      socialLabel: 'Instagram',
+      social: '@orendaylegal',
+      formName: 'Full name',
+      formEmail: 'Email address',
+      formCompany: 'Company (optional)',
+      formMessage: 'How can we help?',
+      formSubmit: 'Send message',
+      formNote: 'By submitting this form you agree that a member of the firm will contact you to coordinate an initial meeting.',
+    },
+  },
+  footer: {
+    es: {
+      tagline: 'Estrategia jurídica para empresas que no toleran improvisaciones.',
+      nav: 'Navegación',
+      legal: 'Legal',
+      privacy: 'Aviso de Privacidad',
+      terms: 'Términos de Servicio',
+      ethics: 'Código de Ética',
+      copyright: '© 2026 Orenday Asesores Corporativos. Todos los derechos reservados.',
+      domain: 'orenday.com.mx',
+    },
+    en: {
+      tagline: 'Legal strategy for companies that do not tolerate improvisation.',
+      nav: 'Navigation',
+      legal: 'Legal',
+      privacy: 'Privacy Notice',
+      terms: 'Terms of Service',
+      ethics: 'Code of Ethics',
+      copyright: '© 2026 Orenday Asesores Corporativos. All rights reserved.',
+      domain: 'orenday.com.mx',
+    },
+  },
+};
+
+export const INSTAGRAM_URL = 'https://instagram.com/orendaylegal';
+export const EMAIL = 'contacto@orenday.com.mx';

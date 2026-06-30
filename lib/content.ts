@@ -218,7 +218,14 @@ export const content = {
       eyebrow: '— Trusted by',
       title: 'Companies that have trusted their tax and corporate defense to the firm.',
     },
-    items: ['QUATTRO', 'CERVECERÍA ÍCONO', 'XECL', 'XED', 'JK', 'TENTACIONES'],
+    items: [
+      { name: 'Quattro Marketing Group', img: '/images/logo-quattro.jpg' },
+      { name: 'Cervecería Ícono', img: '/images/logo-icono.png' },
+      { name: 'SAIT Software Administrativo', img: '/images/logo-sait.png' },
+      { name: 'JK Servicios', img: '/images/logo-jk.png' },
+      { name: 'Mercado de Refacciones', img: '/images/logo-mr.png' },
+      { name: 'Tentaciones Repostería', img: '/images/logo-tentaciones.jpeg' },
+    ],
   },
   testimonios: {
     es: {

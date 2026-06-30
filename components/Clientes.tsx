@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import { content } from '@/lib/content';
 import { useLang } from './LangProvider';
 import { useReveal } from './useReveal';
@@ -10,7 +11,6 @@ export default function Clientes() {
   const items = content.clientes.items;
   const ref = useReveal();
 
-  // Duplicate for seamless loop
   const doubled = [...items, ...items];
 
   return (
@@ -33,16 +33,21 @@ export default function Clientes() {
         </div>
       </div>
 
-      <div className="marquee-container">
-        <div className="flex gap-16 lg:gap-24 animate-marquee whitespace-nowrap py-6">
+      <div className="marquee-container overflow-hidden">
+        <div className="flex gap-16 lg:gap-24 animate-marquee items-center py-6">
           {doubled.map((c, i) => (
-            <span
-              key={i}
-              className="font-display text-2xl lg:text-4xl xl:text-5xl text-cream-100/40 hover:text-champagne-400 transition-colors tracking-wider font-light"
-            >
-              {c}
-              <span className="text-champagne-500 ml-16 lg:ml-24">·</span>
-            </span>
+            <div key={i} className="flex items-center gap-16 lg:gap-24 shrink-0">
+              <div className="relative h-10 lg:h-14 w-36 lg:w-48 opacity-40 hover:opacity-80 transition-opacity grayscale hover:grayscale-0">
+                <Image
+                  src={c.img}
+                  alt={c.name}
+                  fill
+                  className="object-contain"
+                  sizes="192px"
+                />
+              </div>
+              <span className="text-champagne-500 text-2xl">·</span>
+            </div>
           ))}
         </div>
       </div>

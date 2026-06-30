@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     title: 'Orenday Asesores Corporativos',
     description:
       'Asesoría jurídica boutique en materia fiscal, corporativa y empresarial. Mexicali, Baja California.',
-    url: 'https://orenday.com.mx',
+    url: 'https://orendayrobles.com',
     siteName: 'Orenday Asesores Corporativos',
     locale: 'es_MX',
     type: 'website',

@@ -383,7 +383,7 @@ export const content = {
       modalPassword: 'Contraseña',
       modalForgot: '¿Olvidó su contraseña?',
       modalSubmit: 'Iniciar sesión',
-      modalNote: 'Si aún no tiene acceso, escriba a su abogado asignado o a contacto@orenday.com.mx.',
+      modalNote: 'Si aún no tiene acceso, escriba a su abogado asignado o a contacto@orendayrobles.com.',
     },
     en: {
       eyebrow: '— Client Portal',
@@ -401,7 +401,7 @@ export const content = {
       modalPassword: 'Password',
       modalForgot: 'Forgot your password?',
       modalSubmit: 'Sign in',
-      modalNote: 'If you do not yet have access, contact your assigned lawyer or write to contacto@orenday.com.mx.',
+      modalNote: 'If you do not yet have access, contact your assigned lawyer or write to contacto@orendayrobles.com.',
     },
   },
   contacto: {
@@ -412,7 +412,7 @@ export const content = {
       addressLabel: 'Oficina',
       address: 'Av. Venustiano Carranza 109,\nCol. Vallarta, C.P. 21270,\nMexicali, Baja California.',
       emailLabel: 'Correo',
-      email: 'contacto@orenday.com.mx',
+      email: 'contacto@orendayrobles.com',
       socialLabel: 'Instagram',
       social: '@orendaylegal',
       formName: 'Nombre completo',
@@ -429,7 +429,7 @@ export const content = {
       addressLabel: 'Office',
       address: 'Av. Venustiano Carranza 109,\nCol. Vallarta, C.P. 21270,\nMexicali, Baja California.',
       emailLabel: 'Email',
-      email: 'contacto@orenday.com.mx',
+      email: 'contacto@orendayrobles.com',
       socialLabel: 'Instagram',
       social: '@orendaylegal',
       formName: 'Full name',
@@ -449,7 +449,7 @@ export const content = {
       terms: 'Términos de Servicio',
       ethics: 'Código de Ética',
       copyright: '© 2026 Orenday Asesores Corporativos. Todos los derechos reservados.',
-      domain: 'orenday.com.mx',
+      domain: 'orendayrobles.com',
     },
     en: {
       tagline: 'Legal strategy for companies that do not tolerate improvisation.',
@@ -459,10 +459,10 @@ export const content = {
       terms: 'Terms of Service',
       ethics: 'Code of Ethics',
       copyright: '© 2026 Orenday Asesores Corporativos. All rights reserved.',
-      domain: 'orenday.com.mx',
+      domain: 'orendayrobles.com',
     },
   },
 };
 
 export const INSTAGRAM_URL = 'https://instagram.com/orendaylegal';
-export const EMAIL = 'contacto@orenday.com.mx';
+export const EMAIL = 'contacto@orendayrobles.com';

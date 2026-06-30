@@ -98,7 +98,7 @@ export default function Portal({ modalOpen, setModalOpen }: PortalProps) {
                       <span className="w-2.5 h-2.5 rounded-full bg-green-400/70" />
                     </div>
                     <span className="font-mono text-[10px] tracking-widest uppercase text-cream-100/40">
-                      portal.orenday.com.mx
+                      portal.orendayrobles.com
                     </span>
                   </div>
                   <div className="space-y-5">

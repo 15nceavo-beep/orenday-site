@@ -294,7 +294,7 @@ export const content = {
           areas: ['Litigio Fiscal', 'Asesoría Fiscal y Corporativa', 'Planeación Patrimonial'],
         },
         {
-          name: 'Ángel Mendoza Aramburo',
+          name: 'Ángel Gabriel Mendoza Armenta',
           role: 'Abogado Asociado',
           img: '/images/angel-mendoza.png',
           bio: 'Abogado del despacho con práctica activa en litigio fiscal y administrativo ante el TFJA y el TEJA. Cursa la Licenciatura en Derecho en CETYS Universidad (7.° semestre). Complementa su formación jurídica con conocimientos en análisis financiero y desarrollo tecnológico.',
@@ -310,7 +310,7 @@ export const content = {
           areas: ['Tax Litigation', 'Tax & Corporate Advisory', 'Estate & Wealth Planning'],
         },
         {
-          name: 'Ángel Mendoza Aramburo',
+          name: 'Ángel Gabriel Mendoza Armenta',
           role: 'Associate',
           img: '/images/angel-mendoza.png',
           bio: 'Associate at the firm with active practice in tax and administrative litigation before the TFJA and TEJA. Currently studying Law at CETYS Universidad (7th semester). He complements his legal training with knowledge in financial analysis and technology.',
